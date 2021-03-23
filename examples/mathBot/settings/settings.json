@@ -1,0 +1,19 @@
+{
+    "system": {
+        "api_id": "YOUR API ID",
+        "api_hash": "YOUR API HASH",
+        "bot_token": "YOUR BOT TOKEN"
+    },
+    "handlers": {
+        "expression": [
+            "resolver"
+        ],
+        "plot": [
+            "plotting"
+        ]
+    },
+    "app": {
+        "command_char": "!",
+        "break_args": " "
+    }
+}

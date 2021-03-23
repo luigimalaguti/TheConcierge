@@ -128,3 +128,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Settings TheConcierge Bot
+*.session
+settings.json
