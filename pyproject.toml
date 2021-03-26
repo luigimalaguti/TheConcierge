@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "TheConcierge"
-version = "0.0.1"
+version = "0.0.2"
 description = "The Concierge allows you to create a simple project for the development of a ready-to-use Telegram Bot."
 authors = ["luigimalaguti <malaguti.luigi@gmail.com>"]
 license = "GPLv3"
@@ -17,7 +17,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 Telethon = "^1.21.1"
 
 [tool.poetry.dev-dependencies]
