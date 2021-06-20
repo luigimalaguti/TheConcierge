@@ -28,8 +28,6 @@ Before you start programming your bot, you need to get the Telegram App API Id a
 
 To get the token needed for the bot, you can visit the official telegram website which explains how to use [BotFather](https://core.telegram.org/bots#6-botfather).
 
-Perfect, now you can start programming your Bot.
-
 The structure of your project is as follows:
 
 ```
@@ -41,6 +39,16 @@ The structure of your project is as follows:
     |   +-- settings.json
     +-- <MAIN>.py
 ```
+
+If you want, you can see [TheConciergeTemplate](https://github.com/luigimalaguti/TheConciergeTemplate) for a template to start with. Otherwise, you can run this command:
+
+```
+python -m theconcierge
+```
+
+This command downloads the template seen above in the current folder of your OS. 
+
+Perfect, now you can start programming your Bot.
 
 ### Handlers
 
@@ -76,7 +84,7 @@ An example:
         "complex_echo_handler"
     ],
     "welcome": [
-        "welcome_italy",
+        "welcome_italian",
         "walcome_english"
     ]
 }
